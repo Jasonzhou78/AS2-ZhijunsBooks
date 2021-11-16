@@ -63,3 +63,25 @@ pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}")
 --deleted controllers
 --slide asks for delete Data and Models, but they are deleted.
 --built and displayed it, succeeded.
+
+1739 starting working with part 2
+--built the project to make sure it is working properly, succeeded
+--change the Database=ZhijunsBooks in the appsettings.json
+--migrate the database using add-migration AddDefaultIdentityMigration
+--migration name: 20211116224211_AddDefaultIdentityMigration
+
+1744 update the database
+--update-database
+--check the tables under ZhijunsBooks in View/SQL Server Object Explorer
+--run the application, succeeded. but the database is not shown yet.
+--create a Category model under ZhijunsBooks.Models
+--update the class contents
+--add the migration via add-migration AddCategoryToDb as the command
+with a name 20211116230631_AddCategoryToDb in ZhijunsBooks.DataAccess
+--modify applicationDbContext file
+--run the command add-migration AddCategoryToDb
+--error message says an existing file
+--delete 20211116230631_AddCategoryToDb.cs file and re-run the command
+--succeeded
+
+
