@@ -106,7 +106,14 @@ with a name 20211116230631_AddCategoryToDb in ZhijunsBooks.DataAccess
 --modified its codes
 --built it, succeeded, save a new version.
 
+2140 work on page 11
 
+--add a SP_Call.cs file in Repository
+--modify its contents
+--error on  using (SqlConnection sqlCon = new SqlConnection(ConnectionString)), warning on 
+SqlConnection, added using Microsoft.Data.SqlClient to resolve the problem;
+
+2152 work on page 12
 
 
 
