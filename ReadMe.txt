@@ -84,4 +84,22 @@ with a name 20211116230631_AddCategoryToDb in ZhijunsBooks.DataAccess
 --delete 20211116230631_AddCategoryToDb.cs file and re-run the command
 --succeeded
 
+1910 work with category
+--create a categor and added to	ApplicationDbContext
+--add a new folder Repositor
+--in it, add a folder IRepository
+--add a new item of type interface to IRepository
+--modify its contents
+--built, succeeded, save as a new version
+1945
+--create a new repository
+--modify code refer to assignment 2 folder
+--built it, succeeded, save as a new version
+
+2000
+
+
+
+
+
 
