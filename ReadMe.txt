@@ -96,7 +96,11 @@ with a name 20211116230631_AddCategoryToDb in ZhijunsBooks.DataAccess
 --modify code refer to assignment 2 folder
 --built it, succeeded, save as a new version
 
-2000
+2000 work on page 9
+
+--modify categoryRepository and ICategoryRepository
+--for file CategoryRepository, the Categories should be Category. I modified this word.
+
 
 
 
